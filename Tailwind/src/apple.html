@@ -1,0 +1,511 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+<link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    @media screen and (max-width:640px) {
+        .none__listitem{
+            display: none;
+        }
+        .footer__sm-responsive{
+            display: none;
+        }
+        .footer__margin_sm-one{
+            margin-left: 25px;
+        }
+        .footer__margin_sm-one{
+            margin-left: 40px;
+        }
+        img.height__xxl{
+            height: 200%;
+        }
+    }
+    @media screen and (max-width:580px) {
+        .display__none-sm{
+            display: none;
+            
+        }
+        .justify__sm{
+            justify-content: space-between;
+        }
+    }
+    .beige__bg{
+      background-color: beige;
+    }
+    /* @media screen and (max-width:437px) {
+        .footer__margin_sm-one{
+            margin-left: 0;
+        }
+        .footer__margin_sm-one{
+            margin-left:0;
+        }
+    } */
+    
+</style>
+</head>
+<body style="width: 100vw;">
+  <header style="background-color:#111518" class="opacity-100">
+    <ui class="flex list-none justify-center text-slate-200 text-xs" style="align-items: center;font-weight: 200;">
+        <li class="px-4 py-3 justify__sm"><i class="fa fa-apple font-bold text-xxl"></i></li>
+        <li class="px-4 py-3 display__none-sm">Store</li>
+        <li class="px-4 py-3 display__none-sm">Mac</li>
+        <li class="px-4 py-3 display__none-sm">iPad</li>
+        <li class="px-4 py-3 display__none-sm">iPhone</li>
+        <li class="px-4 py-3 display__none-sm">Watch</li>
+        <li class="px-4 py-3 display__none-sm">Vision</li>
+        <li class="px-4 py-3 display__none-sm">AirPods</li>
+        <li class="px-4 py-3 xl:block lg:block sm:hidden xs:hidden none__listitem">TV & Home</li>
+        <li class="px-4 py-3 xl:block lg:block sm:hidden xs:hidden none__listitem">Entertainment</li>
+        <li class="px-4 py-3 xl:block lg:block sm:hidden xs:hidden none__listitem" >Accessories</li>
+        <li class="px-4 py-3 xl:block lg:block sm:hidden xs:hidden none__listitem">Support</li>
+        <li class="px-4 py-3 justify__sm"><i class="fa fa-search"></i></li>
+        <li class="px-4 py-3 justify__sm"><i class="fa fa-shopping-bag"></i></li>
+        <li class="px-4 py-3 justify__sm xl:hidden lg:hidden sm:hidden xs:block"><i class="fa fa-align-justify"></i></li>
+    </ui>
+  </header>
+  
+  <section class="relative grid grid-rows-2 sm:grid-rows-1 lg:grid-rows-1 xl:grid-rows-1">
+    <!-- style="background-image: url(../Assets/Img/hero_iphone15pro__i70z9oz3hj2i_largetall_2x.jpg);background-position: center;background-repeat: no-repeat;background-size: contain;backface-visibility: visible;width: 100%;height: 500px;" -->
+    <img src="../Assets/Img/hero_iphone15pro__i70z9oz3hj2i_largetall_2x.jpg" class="relative bg-cover height__xxl" alt="">          
+    <!-- style="transform: scale(1.52);"    style for img -->
+    <div>
+        <div class="text-white absolute text-center top-7 left-1/2 -translate-x-1/2 -translate-y-3 ">
+            <h1 class="font-bold xl:text-4xl lg:text-2xl sm:text-xl text-sm">iPhone 15 Pro</h1>
+            <h3 class=" font-thin xl:text-lg lg:text-sm sm:text-xs text-xs" role="presentation">Titanium. So strong. So light. So Pro.</h3>
+            
+        </div>
+        <div class="absolute text-blue-500 text-center text-sm top-32 left-1/2 -translate-x-1/2 -translate-y-10" style="font-size: small;">
+            <a href="#" class="pe-6">Learn More <i class="fa fa-angle-right"></i></a>
+            <a href="#">Buy <i class="fa fa-angle-right"></i></a>
+        </div>
+    </div>
+  </section>
+  <section class="relative grid grid-rows-2 sm:grid-rows-1 lg:grid-rows-1 xl:grid-rows-1">
+    <img src="../Assets/Img/hero_iphone15_announce__uuemlcwczn6u_largetall_2x.jpg" class="relative bg-cover height__xxl"  alt="">          
+    <div>
+        <div class="text-black absolute text-center top-7 left-1/2 -translate-x-1/2 -translate-y-3">
+            <h2 class="font-bold xl:text-4xl lg:text-2xl sm:text-xl text-sm">iPhone 15</h2>
+            <h5 class="text-slate-600 xl:text-lg lg:text-sm sm:text-xs text-xs" role="presentation">New camera. New design. Newphoria.</h5>
+            
+        </div>
+        <div class="absolute text-blue-500 text-center text-sm top-32 left-1/2 -translate-x-1/2 -translate-y-10" style="font-size: small;">
+            <a href="#" class="pe-6">Learn More <i class="fa fa-angle-right"></i></a>
+            <a href="#">Buy <i class="fa fa-angle-right"></i></a>
+        </div>
+    </div>
+  </section>
+  <section class="relative grid grid-rows-2 sm:grid-rows-1 lg:grid-rows-1 xl:grid-rows-1">
+    <img src="../Assets/Img/hero_apple_watch_series_9_order__d0fi9mb84dci_largetall_2x.jpg" class="relative bg-cover height__xxl" alt="">          
+    <div>
+        <div class="text-white absolute text-center top-7 left-1/2 -translate-x-1/2 -translate-y-3" style="">
+            <h2 class="font-bold xl:text-4xl lg:text-2xl sm:text-xl text-sm"><i class="fa fa-apple"></i> WATCH</h2>
+            <p class="text-red-600 xl:text-lg lg:text-sm sm:text-xs text-xs">SERIES 9</p>
+            <h5 class="text-white xl:text-lg lg:text-sm sm:text-xs text-xs" role="presentation">Smarter. Brighter. Mightier.</h5>
+            
+        </div>
+        <div class="absolute text-blue-500 text-center text-sm top-40 left-1/2 -translate-x-1/2 -translate-y-10" style="font-size: small;">
+            <a href="#" class="pe-6">Learn More <i class="fa fa-angle-right"></i></a>
+            <a href="#">Buy <i class="fa fa-angle-right"></i></a>
+        </div>
+    </div>
+  </section>
+  <section class="container grid xl:grid-cols-2 gap-2 lg:grid-cols-1 lg:mx-auto md:mx-auto sm:mx-auto grid-rows-2 sm:grid-rows-1 lg:grid-rows-1 xl:grid-rows-1 mt-2  ">
+    <div class="relative grid grid-rows-2 sm:grid-rows-1 lg:grid-rows-1 xl:grid-rows-1">
+        <img src="../Assets/Img/promo_ipadpro_refresh__evi9utuixwuq_large_2x.jpg" class="height__xxl" alt="">
+        <div>
+            <div class="text-white absolute text-center top-7 left-1/2 -translate-x-1/2 -translate-y-3" style="">
+                <h2 class="font-bold text-4xl">iPad Pro</h2>
+                <h5 class="text-white text-lg flex items-center" role="presentation">Supercharged by <img src="../Assets/Img/promo_m2_chip__enw2kz91lsuq_large_2x.png" class="w-10 h-10 ps-1" alt=""> </h5>
+                
+            </div>
+            <div class="absolute text-blue-500 text-center text-sm top-36 left-1/2 -translate-x-1/2 -translate-y-4" style="font-size: small;">
+                <a href="#" class="pe-6">Learn More <i class="fa fa-angle-right"></i></a>
+                <a href="#">Buy <i class="fa fa-angle-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="relative grid grid-rows-2 sm:grid-rows-1 lg:grid-rows-1 xl:grid-rows-1">
+        <img src="../Assets/Img/promo_apple_vision_pro__f4v4zp0sum2y_large_2x.jpg" class="height__xxl" alt="">
+        <div>
+            <div class="text-black absolute text-center bottom-7 left-1/2 -translate-x-1/2 -translate-y-3" style="">
+                <h2 class=" text-4xl"><i class="fa fa-apple"></i> Vision Pro</h2>
+                <h5 class=" text-lg hidden sm:block" role="presentation">Welcome to the era of spatial computing.</h5>
+                
+            </div>
+            <div class="-translate-x-1/2 -translate-y-10 absolute left-1/2  text-blue-500 text-center text-sm " style="font-size: small;">
+                <a href="#">Learn More <i class="fa fa-angle-right"></i></a>
+                
+            </div>
+        </div>
+    </div>
+    <div class="relative  grid grid-rows-2 sm:grid-rows-1 lg:grid-rows-1 xl:grid-rows-1">
+        <img src="../Assets/Img/promo_macbook_air_15_midnight__3zojl1nanrme_large_2x.jpg" class="height__xxl" alt="">
+        <div>
+            <div class="text-slate-600 absolute text-center top-3 left-1/2 -translate-x-1/2 -translate-y-3" style="">
+                <h2 class="font-bold text-4xl">MacBook Air 15”</h2>
+                <h5 class=" text-lg" role="presentation">Impressively big. Impossibly thin.</h5>
+                
+            </div>
+            <div class="-translate-x-1/2 absolute left-1/2 lg:top-28 md:top-28 top7 sm:top-28 text-blue-500 text-center text-sm top-36 xl:top-28 xxl:top-28" style="font-size: small;">
+                <a href="#" class="pe-6">Learn More <i class="fa fa-angle-right"></i></a>
+                <a href="#">Buy <i class="fa fa-angle-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="relative  grid grid-rows-2 sm:grid-rows-1 lg:grid-rows-1 xl:grid-rows-1">
+        <img src="../Assets/Img/promo_airpods_pro_order__d8xv36p4uwae_large_2x.jpg" class="height__xxl" alt="">
+        <div>
+            <div class="text-slate-200 absolute text-center top-3 left-1/2 -translate-x-1/2 -translate-y-3" style="">
+                <h2 class="font-bold text-4xl">AirPods Pro</h2>
+                <h5 class=" text-lg hidden sm:block" role="presentation">Adaptive Audio. Now playing.</h5>
+                
+            </div>
+            <div class="absolute text-blue-500 text-center text-sm md:top-32 left-1/2 -translate-x-1/2 -translate-y-10" style="font-size: small;">
+                <a href="#" class="pe-6">Learn More <i class="fa fa-angle-right"></i></a>
+                <a href="#">Buy <i class="fa fa-angle-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="relative grid grid-rows-2 sm:grid-rows-1 lg:grid-rows-1 xl:grid-rows-1">
+        <img src="../Assets/Img/promo_iphone_tradein__bugw15ka691e_large_2x.jpg" class="height__xxl" alt="">
+        <div>
+            <div class="text-black absolute text-center top-3 left-1/2 -translate-x-1/2 -translate-y-3" style="">
+                <h2 class="font-bold text-4xl"><i class="fa fa-apple"></i> Trade In</h2>
+                <h5 class="text-lg hidden sm:block" role="presentation">Get $200-$650 in credit when you trade in iPhone 11 or higher.</h5>
+                
+            </div>
+            <div class="absolute text-blue-500 text-center text-sm  md:top-36 left-1/2 -translate-x-1/2 -translate-y-10" style="font-size: small;">
+                <a href="#">See what your device is worth <i class="fa fa-angle-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="relative  grid grid-rows-2 sm:grid-rows-1 lg:grid-rows-1 xl:grid-rows-1">
+        <img src="../Assets/Img/tile__cauwwcyyn9hy_large_2x.jpg" class="height__xxl" alt="">
+        <div>
+            <div class="text-black absolute text-center top-7 left-1/2 -translate-x-1/2 -translate-y-3" style="">
+                <h2 class="font-bold text-4xl"><i class="fa fa-apple"></i> Card</h2>
+                <h5 class="text-lg hidden sm:block" role="presentation">Get up to 3% Daily Cash back with every purchase.</h5>
+                
+            </div>
+            <div class="absolute text-blue-500 text-center text-sm md:top-40 left-1/2 -translate-x-1/2 -translate-y-10" style="font-size: small;">
+                <a href="#" class="pe-6">Learn More <i class="fa fa-angle-right"></i></a>
+                <a href="#">Buy <i class="fa fa-angle-right"></i></a>
+            </div>
+        </div>
+    </div>
+    
+  </section>
+  <section>
+    <div class="swiffy-slider slider-item-reveal slider-nav-round slider-item-ratio slider-item-ratio-21x9" id="slider1">
+        <ul class="slider-container">
+            <li><a href="#"><img src="../assets/Img/slider1.PNG" loading="lazy" alt="..."></a></li>
+            <li><a href="#"><img src="../assets/Img/slider2.PNG" loading="lazy" alt="..."></a></li>
+            <li><a href="#"><img src="../assets/Img/slider3.PNG" loading="lazy" alt="..."></a></li>
+            <li><a href="#"><img src="../assets/Img/slider4.PNG" loading="lazy" alt="..."></a></li>
+
+        </ul>
+    
+        <button type="button" class="slider-nav" aria-label="Go left"></button>
+        <button type="button" class="slider-nav slider-nav-next" aria-label="Go left"></button>
+    
+        <div class="slider-indicators slider-indicators-square d-none d-md-flex">
+            <button class="" aria-label="Go to slide"></button>
+            <button aria-label="Go to slide" class=""></button>
+            <button aria-label="Go to slide" class="active"></button>
+            <button aria-label="Go to slide"></button>
+        </div>
+    
+        <div class="slider-indicators slider-indicators-sm slider-indicators-dark slider-indicators-round d-md-none slider-indicators-highlight">
+            <button class="" aria-label="Go to slide"></button>
+            <button aria-label="Go to slide" class=""></button>
+            <button aria-label="Go to slide" class="active"></button>
+            <button aria-label="Go to slide"></button>
+        </div>
+    </div>
+    <div>
+        <ul class="flex list-none text-lg text-black gap-2 justify-center">
+            <li><i class="fa fa-circle-o"></i></li>
+            <li><i class="fa fa-circle-o"></i></li>
+            <li><i class="fa fa-circle"></i></li>
+            <li><i class="fa fa-circle-o"></i></li>
+        </ul>
+    </div>
+  </section>
+  <section class="container max-w-full" style="background-color: #f5f5f7;">
+     <p class="mx-auto max-w-6xl px-3 py-5">
+        1. Trade-in values will vary based on the condition, year, and configuration of your eligible trade-in device. <br> Not all devices are eligible for credit. You must be at least 18 years old to be eligible to trade in for credit or for an Apple Gift Card. Trade-in value may be applied toward qualifying new device purchase, or added to an Apple Gift Card. Actual value awarded is based on receipt of a qualifying device matching the description provided when estimate was made. <br> Sales tax may be assessed on full value of a new device purchase. In-store trade-in requires presentation of a valid photo ID (local law may require saving this information). Offer may not be available in all stores, and may vary between in-store and online trade-in. Some stores may have additional requirements. Apple or its trade-in partners reserve the right to refuse or limit quantity of any trade-in transaction for any reason. More details are available from Apple’s trade-in partner for trade-in and recycling of eligible devices. Restrictions and limitations may apply.
+Apple Vision Pro has not been authorized as required by the rules of the Federal Communications Commission. <br> This device is not, and may not be, offered for sale or lease, or sold or leased, until authorization is obtained.
+Apple Vision Pro will be available early next year on apple.com and at Apple retail stores in the U.S. <br>
+To access and use all Apple Card features and products available only to Apple Card users, you must add Apple Card to Wallet on an iPhone or iPad that supports and has the latest version of iOS or iPadOS. Apple Card is subject to credit approval, available only for qualifying applicants in the United States, and issued by Goldman Sachs Bank USA, Salt Lake City Branch.
+If you reside in the U.S. territories, please call Goldman Sachs at 877-255-5923 with questions about Apple Card.
+<br>Learn more about how Apple Card applications are evaluated at support.apple.com/kb/HT209218.
+A subscription is required for Apple TV+.
+     </p>
+     <footer class="grid grid-cols-5 hidden sm:hidden lg:hidden xl:grid xxl:grid max-w-6xl mx-auto px-3 py-5 mt-3 text-center text-xs">
+        <div>
+            <p class="font-bold">Shop & Learn</p>
+            <ul>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+            </ul>
+            <p class="font-bold">Apple Wallet</p>
+            <ul>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+            </ul>
+        </div>
+        <div class="footer__margin_sm-two">
+            <p class="font-bold">Account</p>
+            <ul>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+            </ul>
+            <p class="font-bold">Entertainment</p>
+            <ul>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+            </ul>
+        </div>
+        <div class="footer__margin_sm-one">
+            <p class="font-bold">Account</p>
+            <ul>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                
+
+            </ul>
+            <p class="font-bold">Entertainment</p>
+            <ul>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                
+
+            </ul>
+        </div>
+        <div>
+            <p class="font-bold footer__sm-responsive">Account</p>
+            <ul class="footer__sm-responsive">
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                
+
+            </ul>
+            <p class="font-bold footer__sm-responsive">Entertainment</p>
+            <ul class="footer__sm-responsive">
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+
+
+            </ul>
+        </div>
+        <div>
+            <p class="font-bold lg:block sm:hidden footer__sm-responsive">Account</p>
+            <ul class="lg:block sm:hidden footer__sm-responsive">
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+
+            </ul>
+            <p class="font-bold lg:block sm:hidden footer__sm-responsive">Entertainment</p>
+            <ul class="lg:block sm:hidden footer__sm-responsive">
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+                <a href="#"><li>lorem</li></a>
+
+            </ul>
+        </div>
+     </footer>
+     <section class="block sm:block lg:block xl:hidden xxl:hidden">
+        <div class="container mx-auto sm:block lg:block xl:hidden xxl:hidden">
+            
+          </div>
+          <div class="container mx-auto sm:block lg:block xl:hidden xxl:hidden">
+            <!-- accordion-tab  -->
+            <div class="container mx-auto sm:block lg:block xl:hidden xxl:hidden" tabindex="1">
+              <div
+                class="group beige__bg flex justify-between px-4 py-3 items-center text-gray-500 transition ease duration-500 cursor-pointer pr-10 relative"
+              >
+                <div class="group-focus:text-red-800 transition ease duration-500">
+                  About Us
+                </div>
+                <div
+                  class="h-8 w-8 border border-gray-700 rounded-full items-center inline-flex justify-center transform transition ease duration-500 group-focus:text-red-800 group-focus:-rotate-180 absolute top-0 right-0 mb-auto ml-auto mt-2 mr-2"
+                >
+                  <i class="fa fa-chevron-down"></i>
+                </div>
+              </div>
+              <div
+                class="group-focus:max-h-screen max-h-0 bg-orange-300 px-4 overflow-hidden ease duration-500"
+              >
+                <p class="p-2 text-slate-600 text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+                  repellat amet doloribus consequuntur eos similique provident
+                  tempora voluptates iure quia fuga dicta voluptatibus culpa
+                  mollitia recusandae delectus id suscipit labore?
+                </p>
+              </div>
+            </div>
+            <!-- accordion-tab -->
+            <!-- accordion-tab  -->
+            <div class="group outline-none accordion-section" tabindex="2">
+              <div
+                class="group beige__bg flex justify-between px-4 py-3 items-center text-gray-500 transition ease duration-500 cursor-pointer pr-10 relative"
+              >
+                <div class="group-focus:text-red-800 transition ease duration-500">
+                  Contact US
+                </div>
+                <div
+                  class="h-8 w-8 border border-gray-700 rounded-full items-center inline-flex justify-center transform transition ease duration-500 group-focus:text-red-800 group-focus:-rotate-180 absolute top-0 right-0 mb-auto ml-auto mt-2 mr-2"
+                >
+                  <i class="fa fa-chevron-down"></i>
+                </div>
+              </div>
+              <div
+                class="group-focus:max-h-screen max-h-0 bg-orange-300 px-4 overflow-hidden ease duration-500"
+              >
+                <p class="p-2 text-slate-600 text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+                  repellat amet doloribus consequuntur eos similique provident
+                  tempora voluptates iure quia fuga dicta voluptatibus culpa
+                  mollitia recusandae delectus id suscipit labore?
+                </p>
+              </div>
+            </div>
+            <!-- accordion-tab -->
+            <!-- accordion-tab  -->
+            <div class="group outline-none accordion-section" tabindex="3">
+              <div
+                class="group beige__bg flex justify-between px-4 py-3 items-center text-gray-500 transition ease duration-500 cursor-pointer pr-10 relative"
+              >
+                <div class="group-focus:text-red-800 transition ease duration-500">
+                  Media
+                </div>
+                <div
+                  class="h-8 w-8 border border-gray-700 rounded-full items-center inline-flex justify-center transform transition ease duration-500 group-focus:text-red-800 group-focus:-rotate-180 absolute top-0 right-0 mb-auto ml-auto mt-2 mr-2"
+                >
+                  <i class="fa fa-chevron-down"></i>
+                </div>
+              </div>
+              
+              <div
+                class="group-focus:max-h-screen max-h-0 bg-orange-300 px-4 overflow-hidden ease duration-500"
+              >
+                <p class="p-2 text-slate-600 text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+                  repellat amet doloribus consequuntur eos similique provident
+                  tempora voluptates iure quia fuga dicta voluptatibus culpa
+                  mollitia recusandae delectus id suscipit labore?
+                </p>
+              </div>
+            </div>
+
+            <!-- accordion-tab -->
+            <div class="group outline-none accordion-section" tabindex="3">
+              <div
+                class="group beige__bg flex justify-between px-4 py-3 items-center text-gray-500 transition ease duration-500 cursor-pointer pr-10 relative"
+              >
+                <div class="group-focus:text-red-800 transition ease duration-500">
+                  Media
+                </div>
+                <div
+                  class="h-8 w-8 border border-gray-700 rounded-full items-center inline-flex justify-center transform transition ease duration-500 group-focus:text-red-800 group-focus:-rotate-180 absolute top-0 right-0 mb-auto ml-auto mt-2 mr-2"
+                >
+                  <i class="fa fa-chevron-down"></i>
+                </div>
+              </div>
+              
+              <div
+                class="group-focus:max-h-screen max-h-0 bg-orange-300 px-4 overflow-hidden ease duration-500"
+              >
+                <p class="p-2 text-slate-600 text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+                  repellat amet doloribus consequuntur eos similique provident
+                  tempora voluptates iure quia fuga dicta voluptatibus culpa
+                  mollitia recusandae delectus id suscipit labore?
+                </p>
+              </div>
+            </div><div class="group outline-none accordion-section" tabindex="3">
+              <div
+                class="group beige__bg flex justify-between px-4 py-3 items-center text-gray-500 transition ease duration-500 cursor-pointer pr-10 relative"
+              >
+                <div class="group-focus:text-red-800 transition ease duration-500">
+                  Media
+                </div>
+                <div
+                  class="h-8 w-8 border border-gray-700 rounded-full items-center inline-flex justify-center transform transition ease duration-500 group-focus:text-red-800 group-focus:-rotate-180 absolute top-0 right-0 mb-auto ml-auto mt-2 mr-2"
+                >
+                  <i class="fa fa-chevron-down"></i>
+                </div>
+              </div>
+              
+              <div
+                class="group-focus:max-h-screen max-h-0 bg-orange-300 px-4 overflow-hidden ease duration-500"
+              >
+                <p class="p-2 text-slate-600 text-justify">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+                  repellat amet doloribus consequuntur eos similique provident
+                  tempora voluptates iure quia fuga dicta voluptatibus culpa
+                  mollitia recusandae delectus id suscipit labore?
+                </p>
+              </div>
+            </div>
+          </div>
+      </section>
+  </section>
+  
+</body>
+</html>

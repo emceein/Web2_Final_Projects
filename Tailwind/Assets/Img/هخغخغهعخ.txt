@@ -1,0 +1,25 @@
+<div class="border border-1 border-primary col-lg-4 col-md-6">
+                <div class=" d-flex d-md-block d-lg-block align-items-center">
+                    <div class="img">
+                        <img src="Assets/Image/Apple-1-768x487.jpg" style="width: 100%;" class=" rounded-1" alt="">
+                    </div>
+                    <div class="text pe-2">
+                        <a href="#" class="text-decoration-none text-black fs-3">آموزش نرم افزار ArcGIS Desktop - مقدماتی تا پیشرفته</a>
+                        <div class="text-muted" style="font-size: small;">مدرس: <strong>امیر حمیدی</strong></div>
+                        <div class="d-flex justify-content-around">
+                        <div class="d-flex align-items-baseline justify-content-around text-danger">
+                            <i class="fa fa-desktop ps-2"></i>
+                             <p>18  قسمت</p>
+                        </div>
+                        <div class="d-flex ">
+                            <i class="fa fa-circle ps-2 text-success"></i>
+                            <p>آفلاین</p>
+                        </div>
+                        </div>
+                        <div class="d-flex justify-content-around">
+                            <p class="fs-5"> 477000ت  </p>
+                            <i class="fa fa-play-circle fs-1 text-danger"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
